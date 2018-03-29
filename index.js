@@ -362,7 +362,7 @@ class DatePicker extends Component {
     ]
     return (
       <View style={{ marginTop: -26 }}>
-        <Text style={{ marginBottom: 7, color: '#252525' }}>
+        <Text ref="nadpt" style={{ marginBottom: 7, color: '#252525' }}>
           {this.props.dateTitle}
         </Text>
         <TouchableComponent
